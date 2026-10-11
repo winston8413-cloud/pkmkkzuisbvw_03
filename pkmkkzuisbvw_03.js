@@ -1,4 +1,4 @@
-    // Прямое сохранение файлов/изображений в папку Загрузки (Download) без системных диалогов (SocialSharing)
+// Прямое сохранение файлов/изображений в папку Загрузки (Download) без системных диалогов (SocialSharing)
     function saveOrShareFile(fileName, dataOrBlob, mimeType) {
         if (window.cordova && window.resolveLocalFileSystemURL) {
             var storageLocation = cordova.file.externalRootDirectory 
@@ -162,13 +162,13 @@
     if (typeof firebase !== 'undefined') {
         try {
             const firebaseConfig = {
-                apiKey: "AIzaSyAfA5iDg9ncQ7_s1cLzqXg0T4HjIfteb2Q",
-                authDomain: "zhurnal2.firebaseapp.com",
-                databaseURL: "https://zhurnal2-default-rtdb.firebaseio.com",
-                projectId: "zhurnal2",
-                storageBucket: "zhurnal2.firebasestorage.app",
-                messagingSenderId: "834111888738",
-                appId: "1:834111888738:web:2c8e48cf69419536bb203b"
+                apiKey: "AIzaSyDG9S84fP6A8j5VNdVDJEhxfsIK0JkzrA4",
+                authDomain: "zhurnal1.firebaseapp.com",
+                databaseURL: "https://zhurnal1-default-rtdb.firebaseio.com",
+                projectId: "zhurnal1",
+                storageBucket: "zhurnal1.firebasestorage.app",
+                messagingSenderId: "713440114508",
+                appId: "1:713440114508:web:17671a4d144cb1b553c1e9"
             };
 
             firebase.initializeApp(firebaseConfig);
